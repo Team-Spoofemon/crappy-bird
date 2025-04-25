@@ -4,7 +4,7 @@ using UnityEngine;
 public class BirdScript : MonoBehaviour
 {
     public Rigidbody2D rigidbody2D;
-    public float verticalStrength = 12;
+    public float verticalStrength = 16;
     //public float _devOobY = 20;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
