@@ -8,6 +8,8 @@ public class TriggerScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // because this TriggerScript gets spawned in, you can't drag-drop the logic script onto it
+        // so, as a "workaround", find the game object of Logic, and get that game object's logic script.
         // finds the FIRST game object with that tag in the hierarchy
         logic = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
