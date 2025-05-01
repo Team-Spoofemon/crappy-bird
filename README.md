@@ -1,4 +1,7 @@
 # Progression
+6. added trigger
+    - created a new game object in the middle who was a Box Collider 2D with trigger checkmark
+    - set the script to find the ui logic script to call with FindGameObjectByTag
 4. pipes moving across the scene
     - started by making the pipe game object which was then dragged to the project folder to create "Pipe.prefab"
         - Pipe contained a top which had a Box Collider 2D and PipeScript.cs
